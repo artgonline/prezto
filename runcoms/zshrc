@@ -19,3 +19,12 @@ export NVM_DIR="$HOME/.nvm"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
+# Set latest python as default
+alias python='python3.7'
+
+# Set vim to vimx
+alias vim=vimx
+
+# Add pycharm start command
+alias charm='pycharm.sh &'
+
