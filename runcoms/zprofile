@@ -81,8 +81,10 @@ export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 
 # Setting PATH for AWS Cli
-export PATH=/Users/ag/Library/Python/3.7/bin:$PATH
+export PATH=/Users/ag/.local/bin:$PATH
 alias aws='nocorrect aws'
 
 # Google chrome in debug mode
 alias chromedd='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222'
+
+export PATH="$HOME/.poetry/bin:$PATH"
