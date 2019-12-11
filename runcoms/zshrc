@@ -22,3 +22,4 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 # Bind ALT/Command back/fwd actions to default actions in MacOS
 bindkey "^[a" beginning-of-line
 bindkey "^[e" end-of-line
+export PATH="/usr/local/opt/mysql-client/bin:$PATH"
